@@ -36,56 +36,56 @@ https://mypertamina.id/
 gambar : 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img.jpeg)
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img1.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img1.jpeg)
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img2.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img2.jpeg)
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img3.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img3.jpeg)
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img4.jpeg)
-
-
-
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img5.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img4.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img6.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img5.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img7.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img6.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img8.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img7.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img9.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img8.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img10.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img9.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img11.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img10.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img12.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img11.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img13.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img12.jpeg)
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/task_3/img/img14.jpeg)
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img13.jpeg)
+
+
+
+[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img14.jpeg)
