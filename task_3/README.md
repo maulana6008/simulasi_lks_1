@@ -56,7 +56,7 @@ gambar :
 
 
 
-[!gambar](github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img6.jpeg)
+[!gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_3/img/img.jpeg)
 
 
 
