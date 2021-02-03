@@ -1,31 +1,31 @@
 #Task 06
 
 Admin :
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img.png)
+1. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img1.png)
+2. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img1.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img2.png)
+3. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img2.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img3.png)
+4. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img3.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img4.png)
+5. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img4.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img5.png)
+6. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img5.png)
 
 Pegawai :
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/pegawai/img.png)
+1. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/pegawai/img.png)
 
 Customer : 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img.png)
+1. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/customer/img.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img1.png)
+2. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/customer/img1.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img2.png)
+3. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/customer/img2.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/img3.png)
+4. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/customer/img3.png)
 
-![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/admin/halaman.png)
+5. ![gambar](https://github.com/maulana6008/simulasi_lks_1/blob/main/task_6/img/customer/halaman.png)
 
 Referensi :
 1. https://www.m.tokopedia.com/
