@@ -12,9 +12,9 @@
 5. copy isi dari .env.example dan paste ke .env
 6. ubah DB_DATABASE, DB_USERNAME dan DB_PASSWORD sesuai informasi database Anda
 7. pada terminal ketik : 
-> php artisan key:generate
-> php artisan migrate
-> php artisan serve
+	* > php artisan key:generate
+	* > php artisan migrate
+	* > php artisan serve
 
 
 * Untuk mengakses APInya tentu saja Anda harus melakukan login terlebih dahulu jika belum memiliki akun
@@ -26,8 +26,8 @@ anda bisa melakukan daftar akun terlebih dahulu.
 Nah, kalau Anda sudah login Anda baru bisa mengakses API, 
 Akan saya jelaskan Endpoint API berikut :
 * /login dan /daftar anda butuh headers
-> Content-Type : application/json
-> X-Requested-With : XMLHttpRequest
+	* > Content-Type : application/json
+	* > X-Requested-With : XMLHttpRequest
 
 * selain endpoint /login dan /daftar anda butuh headers
 > Authorization : Bearer tokenAnda
