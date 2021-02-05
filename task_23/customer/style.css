@@ -1,0 +1,117 @@
+
+.img-logo{
+	margin-top: 100px;
+}
+
+.greeting .headline{
+	font-size: 65px;
+	margin-top: 65px;
+	color: #272343;
+	font-weight: bold;
+}
+
+.greeting .sub{
+	font-size: 35px;
+	margin-top: 100px;
+	font-weight: 500;
+	color: #2d334a;
+	margin-bottom: 80px;
+}
+
+.btn-ku{
+	width: 98%;
+	background-color: #272343;
+	color: #fffffe;
+	margin-top: 10px;
+	font-size: 30px;
+	padding: 20px;
+	height: auto;
+	font-weight: bold;
+}
+
+.text{
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.title-daftar{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.title-daftar, .title-daftar a{
+	color: #272343;
+}
+
+.title-daftar span{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	right: 20px;
+}
+
+.greeting{
+	color: #272343;
+}
+
+.greeting .greeting1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.greeting .nama{
+	font-size: 25px;
+	/*font-weight: 500;*/
+}
+
+.image-profile{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+
+.nav-bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-top:20px;
+}
+
+.nav-bottom-items{
+	font-size: 35px;
+	color: #272343;
+}
+
+.active{
+	background-color: #272343;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+}
+
+.saldo{
+	background-color: #272343;
+	border-radius: 20px;
+	padding: 20px;
+	height: 162px;
+}
+
+.saldo i{
+	color: #bae8e8;
+	font-size: 120px;
+}
+
+.items{
+	color: #fffffe;
+	font-size: 25px;
+}
+
+.flex-gue{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 122px;
+}

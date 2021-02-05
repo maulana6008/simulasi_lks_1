@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../../materialize/css/materialize.min.css">
+    <script src="jquery.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="../../materialize/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<nav>
+	    <div class="nav-wrapper">
+	    	<div class="container-sendiri">
+	    		<a href="#!" class="brand-logo">Pertamina</a>
+			    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			    <ul class="right hide-on-med-and-down">
+			        <li>
+			         	<div class='dropdown-trigger img-profil z-depth-1' data-target='dropdown1'></div>
+					  	<!-- Dropdown Structure -->
+					  <ul id='dropdown1' class='dropdown-content'>
+					    <li><a href="profile.html">Profile</a></li>
+					    <li><a href="javascript:void(0)" class="logout">logout</a></li>
+					  </ul>
+			        </li>
+			    </ul>
+	    	</div>
+	    </div>
+	</nav>
+
+	  <ul class="sidenav" id="mobile-demo">
+	    <li><a href="sass.html">Sass</a></li>
+	    <li><a href="badges.html">Components</a></li>
+	    <li><a href="collapsible.html">Javascript</a></li>
+	    <li><a href="mobile.html">Mobile</a></li>
+	  </ul>
+
+
+	<div class="container-sendiri">
+		<div class="row">
+			<div class="col s2">
+				<div class="flex-container">
+					<div class="items items-active">
+						<span><i class="fa fa-home"></i></span>
+						<a href="#" class="active">Home</a>
+					</div>
+					<div class="items">
+						<span><i class="fa fa-user"></i></span>
+						<a href="#">Pegawai</a>
+					</div>
+					<div class="items">
+						<span><i class="fa fa-gas-pump"></i></span>
+						<a href="#">Bensin</a>
+					</div>
+					<div class="items">
+						<span><i class="fa fa-calendar"></i></span>
+						<a href="#">Event/Promo</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s10 content">
+				<div class="padding-content">
+					<div class="row">
+						<div class="col s12">
+							<div class="title-content">
+								Dashboard
+							</div>
+						</div>
+						<div class="col s12">
+							<div class="row">
+								<div class="col s12">
+									<div class="setsumeisho">
+										Penjualan Bensin Hari ini
+									</div>
+								</div>
+								<div class="col s3">
+									<div class="card-sendiri">
+										<div class="row">
+											<div class="col s8">
+												<div class="card-title">
+													Pertamax
+												</div>
+												<div class="card-total">
+													1 Liter
+												</div>
+											</div>
+											<div class="col s4">
+												<span class="icon-card right"><i class="fa fa-gas-pump"></i></span>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+						<div class="col s12">
+							<div class="row">
+								<div class="col s6">
+									<div class="title-card">
+										Aktifitas Transaksi
+									</div>
+									<div class="setsumeisho">
+										Detail laporan transaksi customer
+									</div>
+									<div class="card-pagination">
+										<div class="card">
+											<i class="fa fa-plus-circle"></i>
+										</div>
+									</div>
+								</div>
+								<div class="col s6">
+									<div class="title-card">
+										Pembelian Bensin
+									</div>
+									<div class="setsumeisho">
+										Detail laporan pembelian/pengisian bensin customer
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- <div class="col s6">
+							<div class="right">
+								<a href="#modal1" class="waves-effect waves-light btn-floating btn-medium modal-trigger">
+							    	<i class="material-icons">add</i>
+							  	</a>
+								  <div id="modal1" class="modal">
+								    <div class="modal-content">
+								      <h4>Tambah Data</h4>
+								      <p>A bunch of text</p>
+								    </div>
+								    <div class="modal-footer">
+								      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+								    </div>
+								  </div>
+							</div>
+						</div> -->
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		  $(document).ready(function(){
+		    $('.sidenav').sidenav();
+		    $('.dropdown-trigger').dropdown();
+		    $('.img-profil').click((e) => {
+		    	const dropdown = document.querySelector('.dropdown-content');
+		    	var left = dropdown.style.left;
+		    	var left1 =  left.replace('px','');
+		    	dropdown.style.left = left1 - 20+'px';
+		    })
+		    $('.modal').modal();
+		    $('.carousel').carousel();
+		  });
+		// async function postData(url = '', data = {}) {
+		  // const response = await fetch(url, {
+		  //   method: 'POST',
+		  //   headers: {
+		  //     	"Content-Type" : "application/json",
+				// "X-Requested-With" : "XMLHttpRequest"
+		  //   },
+		  //   body: JSON.stringify(data)
+		  // });
+		  // return response.json();
+		// }
+
+		// postData('http://127.0.0.1:8000/api/auth/login', { username: "hehe6008",password:"123123123" })
+		//   .then(data => {
+		//     console.log(data); // JSON data parsed by `data.json()` call
+		//   });
+
+	</script>
+</body>
+</html>

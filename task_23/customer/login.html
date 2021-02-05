@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../../materialize/css/materialize.min.css">
+    <script src="jquery.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="../../materialize/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<center>
+		<div class="img-logo">
+			<img src="../../img/logo.png" width="50%">
+		</div>
+		<div class="greeting">
+			<div class="headline">
+				Selamat Datang!
+			</div>
+			<div class="sub">
+				Silahkan masuk ke akun anda
+			</div>
+		</div>
+		<div class="row" style="width: 80%;">
+	        <div class="input-field col s12" style="border:2px solid #fff;">
+	          <input id="username" type="text" class="validate" style="font-size: 30px;height: 80px;font-weight: 500;">
+	          <label for="username" style="font-size: 30px;font-weight: 500;">Username</label>
+	        </div>
+	        <div class="input-field col s12">
+	          <input id="password" type="password" class="validate" style="font-size: 30px;height: 80px;font-weight: 500;">
+	          <label for="password" style="font-size: 30px;font-weight: 500;">Password</label>
+	        </div>
+	        <button class="waves-effect waves-light btn btn-ku">Masuk</button>
+	        <div class="col s12">
+	        	<div class="text">
+	        		Belum punya akun? <a href="daftar.html">Daftar</a>
+	        	</div>
+	        </div>
+	    </div>
+
+	</center>
+
+
+	<script type="text/javascript">
+		  $(document).ready(function(){
+		  });
+		// async function postData(url = '', data = {}) {
+		  // const response = await fetch(url, {
+		  //   method: 'POST',
+		  //   headers: {
+		  //     	"Content-Type" : "application/json",
+				// "X-Requested-With" : "XMLHttpRequest"
+		  //   },
+		  //   body: JSON.stringify(data)
+		  // });
+		  // return response.json();
+		// }
+
+		// postData('http://127.0.0.1:8000/api/auth/login', { username: "hehe6008",password:"123123123" })
+		//   .then(data => {
+		//     console.log(data); // JSON data parsed by `data.json()` call
+		//   });
+
+	</script>
+</body>
+</html>
