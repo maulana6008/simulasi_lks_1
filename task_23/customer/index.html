@@ -57,16 +57,24 @@
 
 			<div class="col s12">
 				<div class="qrcode">
+					<div class="card-title1">
+						QR Code
+					</div>
+					<div class="sub-title1">
+						Di gunakan untuk pengisian bensin Anda
+					</div>
 					<div class="input-field">
-					    <select>
+					    <select class="qrcode-select">
 					      <option value="" disabled selected>Pilih Jenis Bensin</option>
-					      <option value="1">Option 1</option>
-					      <option value="2">Option 2</option>
-					      <option value="3">Option 3</option>
+					      <option value="pertamax">Pertamax</option>
+					      <option value="premium">Premium</option>
+					      <option value="solar">Solar</option>
 					    </select>
 				  	</div>
 				</div>
-				<div id="qrcode" style="width: 100%"></div>
+				<center>
+					<div id="qrcode"></div>
+				</center>
 			</div>
 
 		</div>
@@ -80,17 +88,17 @@
 					</a>
 				</div>
 				<div class="col s3">
-					<a href="#" class="nav-bottom-items">
+					<a href="bensin.html" class="nav-bottom-items">
 						<i class="fa fa-gas-pump"></i>
 					</a>
 				</div>
 				<div class="col s3">
-					<a href="#" class="nav-bottom-items">
+					<a href="history.html" class="nav-bottom-items">
 						<i class="fa fa-history"></i>
 					</a>
 				</div>
 				<div class="col s3">
-					<a href="#" class="nav-bottom-items">
+					<a href="profil.php" class="nav-bottom-items">
 						<i class="fa fa-user"></i>
 					</a>
 				</div>
@@ -99,21 +107,53 @@
 
 	<script type="text/javascript">
 		  $(document).ready(function(){
+
+
+
+		  	async function getData(url = '') {
+			  const response = await fetch(url, {
+			    method: 'GET',
+			    headers: {
+			      	"Authorization" : "Bearer "+localStorage.getItem('token'),
+			    }
+			  });
+			  return response.json();
+			}
+
+			if (localStorage.getItem('token') == null) {
+				location='login.html';
+			}else{
+				getData('http://127.0.0.1:8000/api/auth/user')
+				.then((data) => {
+					console.log(data);
+				})
+			}
+
+			
+
 		  	let img = document.querySelector('.image-profile');
 		  	let valueImg = img.attributes[1].nodeValue;
 		  	img.style.backgroundImage = `url(../../img/${valueImg})`;
 		  	img.style.backgroundSize = 'cover';
 		  	img.style.backgroundPosition = 'center center';
 		  	img.style.backgroundReapeat = 'no-repeat';
-			var qrcode = new QRCode("qrcode", {
-				text: "http://jindo.dev.naver.com/collie",
-				    width: 256,
-				    height: 256,
-				    colorDark : "#000000",
-				    colorLight : "#ffffff",
-				    correctLevel : QRCode.CorrectLevel.H
-			});
+
+		  	let makeQR = (str) => {
+				var qrcode = new QRCode("qrcode", {
+					text: str,
+					    width: 256,
+					    height: 256,
+					    colorDark : "#000000",
+					    colorLight : "#ffffff",
+					    correctLevel : QRCode.CorrectLevel.H
+				});
+				qrcode.clear();
+				qrcode.makeCode(str);
+			}
 			$('select').formSelect();
+			$('.qrcode-select').on('change', (e) => {
+				makeQR(e.currentTarget.value)
+			})
 		  });
 		  
 		// async function postData(url = '', data = {}) {

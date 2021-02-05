@@ -4,7 +4,7 @@
 	<title>Login</title>
 	    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="../../materialize/css/materialize.min.css">
-    <script src="jquery.js"></script>
+    <script src="../admin/jquery.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="../../materialize/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../fontawesome/css/all.min.css">
@@ -47,24 +47,40 @@
 
 
 	<script type="text/javascript">
-		  $(document).ready(function(){
-		  });
-		// async function postData(url = '', data = {}) {
-		  // const response = await fetch(url, {
-		  //   method: 'POST',
-		  //   headers: {
-		  //     	"Content-Type" : "application/json",
-				// "X-Requested-With" : "XMLHttpRequest"
-		  //   },
-		  //   body: JSON.stringify(data)
-		  // });
-		  // return response.json();
-		// }
+		$(document).ready(function(){
 
-		// postData('http://127.0.0.1:8000/api/auth/login', { username: "hehe6008",password:"123123123" })
-		//   .then(data => {
-		//     console.log(data); // JSON data parsed by `data.json()` call
-		//   });
+			async function postData(url = '', data = {}) {
+			  const response = await fetch(url, {
+			    method: 'POST',
+			    headers: {
+			      	"Content-Type" : "application/json",
+					"X-Requested-With" : "XMLHttpRequest"
+			    },
+			    body: JSON.stringify(data)
+			  });
+			  return response.json();
+			}
+
+
+
+			$('.btn-ku').click((e) => {
+				var user = document.querySelector('#username').value;
+				var pass = document.querySelector('#password').value;
+				postData('http://127.0.0.1:8000/api/auth/login', { username: user,password:pass })
+				  .then(data => {
+				    if (data.message == 'Unauthorized') {
+				    	alert('Username atau Password Salah')
+				    }else{
+				    	localStorage.setItem('token', data.access_token);
+				    	localStorage.setItem('expired', data.expired_at);
+				    	location='index.html';
+				    }
+				});
+			})
+
+			
+
+		});
 
 	</script>
 </body>
