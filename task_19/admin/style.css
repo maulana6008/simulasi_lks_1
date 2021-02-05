@@ -1,0 +1,168 @@
+body{
+	background: #e3f6f5;
+}
+nav{
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	background: transparent;
+}
+nav .brand-logo{
+	color: #272343;
+	font-weight: bold;
+}
+nav a{
+	color: #706c61;
+}
+.container-sendiri{
+	padding: 0px 50px 0px 50px;
+}
+
+.img-profil{
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	background-image: url('../../img/pertamina.png');
+	background-position: center left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+}
+
+.dropdown-content{
+	right: 1000px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+}
+
+.items{
+	margin-top: 0px;
+	padding: 10px;
+	color: #2d334a;	
+	margin-top: 5px;
+}
+
+.items a{
+	color: #2d334a;
+	font-weight: bold;
+}
+.items span{
+	padding-right: 10px;
+	margin-left: 5px;
+}
+
+.active{
+	color: #fff !important;
+}
+.items-active{
+	color: #fff !important;
+	background:#2d334a;
+	border-radius: 10px;
+}
+
+.content{
+	border-radius: 10px;
+	margin-top: 20px;
+	background: #fffffe;
+}
+
+.padding-content{
+	padding: 25px;
+}
+
+.title-content{
+	font-weight: bold;
+	font-size: 22px;
+	color: #272343;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.card-sendiri{
+	margin-top: 10px;
+	padding: 15px;
+	border-radius: 10px;
+	height: 90px;
+	background-color: #272343;
+}
+.card-title{
+	font-size: 15px;
+	font-weight: bold;
+	color: #fffffe;
+}
+
+.card-total{
+	margin-top: 10px;
+	font-weight: 500;
+	color: #fffffe;
+}
+
+.icon-card{
+	font-size: 30px;
+	color: #bae8e8;
+	margin-right: 5px;
+	position: relative;
+	top: 5px;
+}
+
+.setsumeisho{
+	margin-top: 5px;
+	font-weight: 500;
+	color: #2d334a;
+	font-size: 14px;
+}
+
+.title-card{
+	margin-top: 15px;
+	color: #272343;
+	font-weight: bold;
+}
+
+.card-pagination{
+	background-color: #272343;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.card{
+	background: #bae8e8;
+	color: #272343;
+	padding: 15px;
+}
+.card i{
+	font-size: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
