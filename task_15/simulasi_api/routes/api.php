@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group([
-    'prefix' => 'auth'
+    'prefix' => 'auth',
+    'middleware' => ['cors']
 ], function () {
     Route::post('login', 'AuthController@login');
     // Pendaftaran Customer
@@ -80,4 +81,3 @@ Route::group([
 
     });
 });
-
